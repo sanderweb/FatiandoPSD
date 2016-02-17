@@ -13,11 +13,18 @@ div#header {
     margin: 0px auto;
 }
 
+div#header h1 {
+    display: block;
+    float: left;
+}
+
 h1 img {
     margin-top: 186px;
     margin-left: 58px;
     float: left;
     margin-top: 186px;
+    display: block;
+    
 }
 
 img#Shape1 {
@@ -27,9 +34,28 @@ img#Shape1 {
     margin-left: 49px;
 }
 
+img#slogan {
+    margin-left: 53px;
+    margin-bottom: 15px;
+}
+
+
 ul#nav {
     list-style: none;
     padding-left: 0px;
     display: block;
-    float: right;
+    float: left;    
+}
+
+ul#nav li {
+    float: left;    
+}
+
+div#conteudo img {
+    border-radius: 6px;
+    background-color:  rgba(255, 255, 255, 0.3);
+    box-shadow: 5px 9px 20px 0px rgba(19, 19, 19, 0.15);
+    width: 1060px;
+    height: 400px;
+    position: absolute;
 }
