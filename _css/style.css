@@ -1,0 +1,35 @@
+@chsrset"utf8";
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../_img/Layer1.png);
+    background-repeat: no-repeat;
+}
+
+div#header {
+    width: 1660px;
+    height: 252px;
+    margin: 0px auto;
+}
+
+h1 img {
+    margin-top: 186px;
+    margin-left: 58px;
+    float: left;
+    margin-top: 186px;
+}
+
+img#Shape1 {
+    width: 1px;
+    height: 60px;
+    margin-top: 170px;
+    margin-left: 49px;
+}
+
+ul#nav {
+    list-style: none;
+    padding-left: 0px;
+    display: block;
+    float: right;
+}
