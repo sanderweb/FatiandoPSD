@@ -8,54 +8,49 @@ body {
 }
 
 div#header {
-    width: 1660px;
-    height: 252px;
-    margin: 0px auto;
-}
-
-div#header h1 {
+    background: #054;
     display: block;
-    float: left;
+    width: 1062;
+    height: 251;
+    margin: auto;
+    padding: 1px;
 }
 
-h1 img {
-    margin-top: 186px;
-    margin-left: 58px;
-    float: left;
-    margin-top: 186px;
-    display: block;
-    
+div#logo {
+    background: #987;
+    width: 221px;
+    height: 33px;
+/*    ESSES TRES PARAMETROS É REFERENTE A POSIÇÂO XY*/
+    position: relative;
+    left: 58px;
+    top: 185px;
+    /*    ESSES TRES PARAMETROS É REFERENTE A POSIÇÂO XY*/
 }
 
-img#Shape1 {
+div#Shape1 {
+    background: #365;
     width: 1px;
     height: 60px;
-    margin-top: 170px;
-    margin-left: 49px;
+    /*    ESSES TRES PARAMETROS É REFERENTE A POSIÇÂO XY*/
+    position: relative;
+    left: 325px;
+    top: 136px;
+    /*    ESSES TRES PARAMETROS É REFERENTE A POSIÇÂO XY*/
 }
 
-img#slogan {
-    margin-left: 53px;
-    margin-bottom: 15px;
+div#slogan {
+    background: #467;
+    width: 263px;
+    height: 24px;
+    /*    ESSES TRES PARAMETROS É REFERENTE A POSIÇÂO XY*/
+    position: relative;
+    left: 383px;
+    top: 94px;
+    /*    ESSES TRES PARAMETROS É REFERENTE A POSIÇÂO XY*/
 }
-
 
 ul#nav {
-    list-style: none;
-    padding-left: 0px;
+    background: #456;
     display: block;
-    float: left;    
-}
-
-ul#nav li {
-    float: left;    
-}
-
-div#conteudo img {
-    border-radius: 6px;
-    background-color:  rgba(255, 255, 255, 0.3);
-    box-shadow: 5px 9px 20px 0px rgba(19, 19, 19, 0.15);
-    width: 1060px;
-    height: 400px;
-    position: absolute;
+    
 }
