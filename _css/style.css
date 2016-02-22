@@ -8,7 +8,7 @@ body {
 }
 
 div#header {
-    background: #054;
+/*    background: #054;*/
     display: block;
     width: 1062;
     height: 251;
@@ -17,7 +17,7 @@ div#header {
 }
 
 div#logo {
-    background: #987;
+/*    background: #987;*/
     width: 221px;
     height: 33px;
 /*    ESSES TRES PARAMETROS É REFERENTE A POSIÇÂO XY*/
@@ -28,7 +28,7 @@ div#logo {
 }
 
 div#Shape1 {
-    background: #365;
+/*    background: #365;*/
     width: 1px;
     height: 60px;
     /*    ESSES TRES PARAMETROS É REFERENTE A POSIÇÂO XY*/
@@ -39,7 +39,7 @@ div#Shape1 {
 }
 
 div#slogan {
-    background: #467;
+/*    background: #467;*/
     width: 263px;
     height: 24px;
     /*    ESSES TRES PARAMETROS É REFERENTE A POSIÇÂO XY*/
@@ -48,9 +48,58 @@ div#slogan {
     top: 94px;
     /*    ESSES TRES PARAMETROS É REFERENTE A POSIÇÂO XY*/
 }
+/*@@@@@-FIM HEADER-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 
-ul#nav {
-    background: #456;
+div#bgcorpo {
+    width: 1060px;
+    height: 400px;
+    /*    ESSES TRES PARAMETROS É REFERENTE A POSIÇÂO XY*/
+    position: absolute;
+    left: 430px;
+    top: 254px;
+    /*    ESSES TRES PARAMETROS É REFERENTE A POSIÇÂO XY*/
+}
+
+.bgcasa {
+    width: 45px;
+    height: 45px;
+    /*    ESSES TRES PARAMETROS É REFERENTE A POSIÇÂO XY*/
+    position: absolute;
+    left: 69px;
+    top: 16px;
+    /*    ESSES TRES PARAMETROS É REFERENTE A POSIÇÂO XY*/
+}
+
+.casa {
+    width: 19px;
+    height: 18px;
+     /*    ESSES TRES PARAMETROS É REFERENTE A POSIÇÂO XY*/
+    position: absolute;
+    left: 81px;
+    top: 28px;
+    /*    ESSES TRES PARAMETROS É REFERENTE A POSIÇÂO XY*/
+    
+}
+
+nav#menu {
+    position: absolute;
+    left: 177px;
+    top: 6px;
+}
+
+nav#menu ul {
+    background: #456;    
+    list-style-type: none;
     display: block;
+    padding: 8px;
+    margin: 2px;
+    
+    
+}
+
+nav#menu li {
+    width: 63px;
+    height: 13px;
+    display: inline;
     
 }
