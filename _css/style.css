@@ -48,58 +48,89 @@ div#slogan {
     top: 94px;
     /*    ESSES TRES PARAMETROS É REFERENTE A POSIÇÂO XY*/
 }
-/*@@@@@-FIM HEADER-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 
-div#bgcorpo {
+/*@@@@@@@-FIM HEADER-@@@@@*/
+
+div#corpo {
     width: 1060px;
     height: 400px;
-    /*    ESSES TRES PARAMETROS É REFERENTE A POSIÇÂO XY*/
-    position: absolute;
-    left: 430px;
-    top: 254px;
-    /*    ESSES TRES PARAMETROS É REFERENTE A POSIÇÂO XY*/
+    margin: auto;
+    border-radius: 6px;
+    background-color:  rgba(255, 255, 255, 0.3);
+    box-shadow: 5px 9px 20px 0px rgba(19, 19, 19, 0.15);
 }
 
-.bgcasa {
+div#bgcasa {
     width: 45px;
     height: 45px;
-    /*    ESSES TRES PARAMETROS É REFERENTE A POSIÇÂO XY*/
-    position: absolute;
-    left: 69px;
-    top: 16px;
-    /*    ESSES TRES PARAMETROS É REFERENTE A POSIÇÂO XY*/
+    position: relative;
+    left: 49px;
+    top: 8px;
+    border-radius: 6px;
+    background-color:  rgba(0, 0, 0, 0.2);
 }
 
 .casa {
     width: 19px;
     height: 18px;
-     /*    ESSES TRES PARAMETROS É REFERENTE A POSIÇÂO XY*/
-    position: absolute;
-    left: 81px;
-    top: 28px;
+     /*    ESSES TRES PARAMETROS É REFERENTE A POSIÇÂO XY*/    
+    left: 13px;
+    top: 15px;
+    position: relative;
     /*    ESSES TRES PARAMETROS É REFERENTE A POSIÇÂO XY*/
     
 }
 
 nav#menu {
-    position: absolute;
-    left: 177px;
-    top: 6px;
+    width: 1462px;    
+    position: relative;
+    left: 120px;
+    top: -30px;
 }
 
 nav#menu ul {
-    background: #456;    
+    width: 932;
     list-style-type: none;
-    display: block;
-    padding: 8px;
-    margin: 2px;
-    
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
     
 }
 
 nav#menu li {
-    width: 63px;
-    height: 13px;
+    font-family: 'Roboto', sans-serif;
     display: inline;
-    
+    padding: 10px;
+    margin: 2px;
+/*
+    width: 131px;
+    height: 13px;
+    margin-left: 0px;    
+    float: left;
+    padding: 10px;
+    margin: 2px;
+*/    
+    font-size: 16px;/* Aproximação devido à substituição de fonte */
+    font-weight: 300;
+    line-height: 34px;/* Aproximação devido à substituição de fonte */
+    text-align: left;
+    }
+
+nav#menu li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav#menu li a:hover {
+    background-color: #111;
+}
+
+/*@@@-FIM NAV MENU@@@@@@*/
+
+.imgbanner {
+    width: 1060px;
+    height: 340px;
+    margin-top: -18;
 }
