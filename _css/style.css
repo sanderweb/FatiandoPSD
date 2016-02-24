@@ -58,6 +58,9 @@ div#corpo {
     border-radius: 6px;
     background-color:  rgba(255, 255, 255, 0.3);
     box-shadow: 5px 9px 20px 0px rgba(19, 19, 19, 0.15);
+    position: absolute;
+    left: 0px;
+    top: 251px;
 }
 
 div#bgcasa {
@@ -82,7 +85,8 @@ div#bgcasa {
 }
 
 nav#menu {
-    width: 1462px;    
+    width: 1462px;
+    height: 45px;
     position: relative;
     left: 120px;
     top: -30px;
@@ -101,19 +105,12 @@ nav#menu li {
     font-family: 'Roboto', sans-serif;
     display: inline;
     padding: 10px;
-    margin: 2px;
-/*
-    width: 131px;
-    height: 13px;
-    margin-left: 0px;    
-    float: left;
-    padding: 10px;
-    margin: 2px;
-*/    
+    margin: 10px;   
     font-size: 16px;/* Aproximação devido à substituição de fonte */
     font-weight: 300;
     line-height: 34px;/* Aproximação devido à substituição de fonte */
-    text-align: left;
+    text-align: center;
+    
     }
 
 nav#menu li a {
@@ -124,13 +121,17 @@ nav#menu li a {
 }
 
 nav#menu li a:hover {
-    background-color: #111;
+    font-family: 'Roboto', sans-serif;
+    display: inline;
+    padding: 10px;
+    margin: 3px;
+    border-radius: 6px;
+    background-color: #fff;
+    color: black;      
+    font-size: 16px;/* Aproximação devido à substituição de fonte */
+    font-weight: 300;
+    line-height: 34px;/* Aproximação devido à substituição de fonte */
+    text-align: center;
 }
 
 /*@@@-FIM NAV MENU@@@@@@*/
-
-.imgbanner {
-    width: 1060px;
-    height: 340px;
-    margin-top: -18;
-}
