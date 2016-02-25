@@ -7,24 +7,33 @@ body {
     background-repeat: no-repeat;
 }
 
+
 div#header {
 /*    background: #054;*/
     display: block;
     width: 1062;
     height: 251;
-    margin: auto;
-    padding: 1px;
+    position: relative;
+    left: 458px;
+    top: 28px;
 }
 
-div#logo {
+
+div#logo h1 {
 /*    background: #987;*/
     width: 221px;
     height: 33px;
 /*    ESSES TRES PARAMETROS É REFERENTE A POSIÇÂO XY*/
     position: relative;
     left: 58px;
-    top: 185px;
+    top: 163px;
     /*    ESSES TRES PARAMETROS É REFERENTE A POSIÇÂO XY*/
+    font-family: 'Roboto', sans-serif;
+color:  #ffffff;
+font-size: 36px;
+font-weight: 400;
+line-height: 18px;
+transform: scaleY(1.0407);/* propriedades de largura e altura omitidas devido a transformação */
 }
 
 div#Shape1 {
@@ -33,20 +42,26 @@ div#Shape1 {
     height: 60px;
     /*    ESSES TRES PARAMETROS É REFERENTE A POSIÇÂO XY*/
     position: relative;
-    left: 325px;
-    top: 136px;
+    left: 353px;
+    top: 86px;
     /*    ESSES TRES PARAMETROS É REFERENTE A POSIÇÂO XY*/
 }
 
-div#slogan {
+div#slogan h3 {
 /*    background: #467;*/
-    width: 263px;
+    width: 365px;
     height: 24px;
     /*    ESSES TRES PARAMETROS É REFERENTE A POSIÇÂO XY*/
     position: relative;
-    left: 383px;
-    top: 94px;
+    left: 392px;
+    top: 25px;
     /*    ESSES TRES PARAMETROS É REFERENTE A POSIÇÂO XY*/
+    font-family: 'Roboto', sans-serif;
+color:  rgba(255, 255, 255, 0.501961);
+font-size: 22.1px;
+font-weight: 400;
+line-height: 18px;
+transform: scaleY(1.0247);/* propriedades de largura e altura omitidas devido a transformação */
 }
 
 /*@@@@@@@-FIM HEADER-@@@@@*/
@@ -59,8 +74,8 @@ div#corpo {
     background-color:  rgba(255, 255, 255, 0.3);
     box-shadow: 5px 9px 20px 0px rgba(19, 19, 19, 0.15);
     position: absolute;
-    left: 0px;
-    top: 251px;
+    left: 430px;
+    top: 275px;
 }
 
 div#bgcasa {
